@@ -17,15 +17,25 @@
   },
   "homepage": "https://github.com/BrewBeast/MVP#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
+    "@babel/core": "^7.7.2",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
     "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "unirest": "^0.6.0"
   }
 }
