@@ -4,4 +4,4 @@ import App from './App.jsx';
 
 
 
-ReactDOM.render(<App/>, document.getElementById('page'));
+ReactDOM.render(<App />, document.getElementById('page'));
